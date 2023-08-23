@@ -1,13 +1,13 @@
 function minUnreachableChange(coins) {
-    coins.sort((a, b) => a - b);  // Sort the coins in ascending order
+    coins.sort((a, b) => a - b);
 
-    let minChange = 1;  // Initialize the minimum amount of change
+    let minChange = 1;
 
     for (const coin of coins) {
         if (coin > minChange) {
-            break;  // Found the smallest amount that cannot be created
+            break;
         }
-        minChange += coin;  // Update the minimum amount of change
+        minChange += coin;
     }
 
     return minChange;

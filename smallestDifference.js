@@ -1,15 +1,15 @@
 function smallestDifference(a, b) {
-    let minDiff = Infinity;  // Inicializa la diferencia mínima con un valor grande
+    let minDiff = Infinity;
     
     for (const numA of a) {
         for (const numB of b) {
-            const diff = Math.abs(numA - numB);  // Calcula la diferencia absoluta
+            const diff = Math.abs(numA - numB);
             
-            minDiff = Math.min(minDiff, diff);  // Actualiza la diferencia mínima
+            minDiff = Math.min(minDiff, diff);
         }
     }
     
-    return minDiff;  // Retorna la diferencia más pequeña
+    return minDiff;
 }
 
 // Test cases
