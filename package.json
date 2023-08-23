@@ -1,0 +1,11 @@
+{
+  "name": "42i-challenge",
+  "version": "1.0.0",
+  "description": "42i challenge",
+  "scripts": {
+    "min-unreacheable-change": "node ./minUnreacheableChange",
+    "smallest-difference": "node ./smallestDifference"
+  },
+  "author": "Juan Ignacio Rosmirez",
+  "license": "ISC"
+}
